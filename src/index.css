@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    /*font-family: "League Spartan", sans-serif;*/
+    font-style: normal;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.my-select > div {
+    height: 100%;
+    border-color: transparent !important;
+    border-radius: 0 !important;
+    border-bottom-color: #e5e7eb !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 2px !important;
+    box-shadow: none;
+}
+
+.my-select > div + div {
+    height: auto;
+}
+
+.my-select > div > div {
+    padding: 0;
+}
+
+.my-select.rate div {
+    font-weight: bold;
+    font-size: large;
+}
